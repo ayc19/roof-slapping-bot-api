@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import requests
 import re
 import random
@@ -7,6 +8,7 @@ p = inflect.engine()
 
 
 app = Flask(__name__)
+CORS(app)
 
 BASE_URL = 'http://api.conceptnet.io/c/en/'
 
