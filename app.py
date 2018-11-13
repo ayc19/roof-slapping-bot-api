@@ -142,8 +142,9 @@ def get_word(word):
 
     if len(texts) == 0:
         return 'No results: try again'
-
-    return jsonify({
+    res = {
         'word': word,
         'text': random.choice(texts)
-    })
+    }
+
+    return jsonify(res)
