@@ -2,7 +2,7 @@ annoy==1.9.5
 appnope==0.1.0
 astroid==1.5.3
 autopep8==1.4.2
-bleach==2.0.0
+bleach==3.3.0
 bokeh==0.12.9
 certifi==2017.7.27.1
 chardet==3.0.4
